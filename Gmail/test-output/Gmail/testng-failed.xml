@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_001_AddRemoveCart(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.framework.testscripts.TC_001_AddRemoveCart">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="addRemove"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.framework.testscripts.TC_001_AddRemoveCart -->
+    </classes>
+  </test> <!-- TC_001_AddRemoveCart(failed) -->
+</suite> <!-- Failed suite [Gmail] -->
