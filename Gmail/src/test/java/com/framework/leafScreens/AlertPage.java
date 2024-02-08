@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver;
 
 public class AlertPage {
+	// AlertPage 
 	
 	@FindBy(xpath="//button[@id='j_idt88:j_idt91']")
 	WebElement simpledialog=null;
